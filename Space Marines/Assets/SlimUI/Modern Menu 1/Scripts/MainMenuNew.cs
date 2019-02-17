@@ -43,8 +43,8 @@ public class MainMenuNew : MonoBehaviour {
 	public GameObject continueBtn;
 	[Tooltip("New Game Button GameObject Pop Up")]
 	public GameObject newGameBtn;
-	[Tooltip("Load Game Button GameObject Pop Up")]
-	public GameObject loadGameBtn;
+	//[Tooltip("Load Game Button GameObject Pop Up")]
+	//public GameObject loadGameBtn;
 
 	// highlights
 	[Header("Highlight Effects")]
@@ -71,7 +71,7 @@ public class MainMenuNew : MonoBehaviour {
 		PanelareYouSure.gameObject.SetActive(false);
 		continueBtn.gameObject.SetActive(true);
 		newGameBtn.gameObject.SetActive(true);
-		loadGameBtn.gameObject.SetActive(true);
+		//loadGameBtn.gameObject.SetActive(true);
 	}
 
 	public void NewGame(){
@@ -83,7 +83,7 @@ public class MainMenuNew : MonoBehaviour {
 	public void  DisablePlayCampaign (){
 		continueBtn.gameObject.SetActive(false);
 		newGameBtn.gameObject.SetActive(false);
-		loadGameBtn.gameObject.SetActive(false);
+		//loadGameBtn.gameObject.SetActive(false);
 	}
 
 	public void  Position2 (){
